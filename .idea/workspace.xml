@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e8a4f0-e2d8-4e09-9b15-741b91e8d675" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/psel_2019.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/psel_2019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resposta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psel_2019.py" beforeDir="false" afterPath="$PROJECT_DIR$/psel_2019.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resposta.json" beforeDir="false" afterPath="$PROJECT_DIR$/resposta.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,29 +89,49 @@
       <option name="presentableId" value="Default" />
       <updated>1577228301262</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit inicial">
+      <created>1577432719110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577432719110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577387809245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577387809245" />
-    <state width="1345" height="237" key="GridCell.Tab.0.bottom" timestamp="1577432647419">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1577471738052">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577432647419" />
-    <state width="1345" height="237" key="GridCell.Tab.0.center" timestamp="1577432647415">
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577471738052" />
+    <state width="1345" height="127" key="GridCell.Tab.0.bottom" timestamp="1577471465086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577432647415" />
-    <state width="1345" height="237" key="GridCell.Tab.0.left" timestamp="1577432647415">
+    <state width="1345" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577471465086" />
+    <state width="1345" height="127" key="GridCell.Tab.0.center" timestamp="1577471465085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577432647415" />
-    <state width="1345" height="237" key="GridCell.Tab.0.right" timestamp="1577432647415">
+    <state width="1345" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577471465085" />
+    <state width="1345" height="127" key="GridCell.Tab.0.left" timestamp="1577471465085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577432647415" />
+    <state width="1345" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577471465085" />
+    <state width="1345" height="127" key="GridCell.Tab.0.right" timestamp="1577471465086">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577471465086" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1577433551626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577433551626" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1577228741467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -126,6 +140,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577228306791" />
+    <state x="396" y="156" key="git4idea.merge.GitPullDialog" timestamp="1577433445657">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="396" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1577433445657" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1577251677757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
