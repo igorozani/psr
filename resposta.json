@@ -1,7 +1,7 @@
 {
-    "full name": "Igor Jos\u00e9 Lima Rozani",
-    "email:": "igorozani@gmail.com",
-    "code_link": "https://github.com/igorozani/psel2019-raccoon",
+    "full_name": "Igor Jose Lima Rozani",
+    "email": "igorozani@gmail.com",
+    "code_link": "https://github.com/igorozani/ps-r",
     "response_a": [
         {
             "product_id": "47940a7e-6161-4823-8fe8-e596d565ee51",
@@ -128,11 +128,7 @@
     ],
     "response_c": 5420,
     "response_d": [
-        {
-            "product_id": "9b1046a4-6a5b-45e1-8d71-31761d7d02c7"
-        },
-        {
-            "product_id": "aea4fc80-0bae-4f32-8a6a-abe91e7d6d4e"
-        }
+        "9b1046a4-6a5b-45e1-8d71-31761d7d02c7",
+        "aea4fc80-0bae-4f32-8a6a-abe91e7d6d4e"
     ]
 }

@@ -1,5 +1,4 @@
 import json
-import requests
 import os
 
 # classe responsável por montar resposta.json e fazer a requisição POST

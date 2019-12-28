@@ -12,9 +12,9 @@ rota2 = Extractor.get('https://us-central1-psel-clt-ti-junho-2019.cloudfunctions
 somatoria = 0
 
 # criação do objeto que será a resposta.json
-resposta = {'full name': "Igor José Lima Rozani",
-            'email:': 'igorozani@gmail.com',
-            'code_link': 'https://github.com/igorozani/psel2019-raccoon',
+resposta = {'full_name': "Igor Jose Lima Rozani",
+            'email': "igorozani@gmail.com",
+            'code_link': "https://github.com/igorozani/ps-r",
             'response_a': [],
             'response_b': [],
             'response_c': somatoria,
@@ -83,7 +83,7 @@ while (i != len(rota2['posts'])):
             # caso seja verdade, verifica se os preços são diferentes
             if rota2['posts'][i]['price'] != rota2['posts'][j]['price']:
                 # caso seja verdade, adiciona o elemento com o campo 'product_id' na lista response_d
-                resposta['response_d'].append({'product_id': rota2['posts'][i]['product_id']})
+                resposta['response_d'].append(rota2['posts'][i]['product_id'])
         # incrementa j para comparar todos os elementos com o que está apontado por i
         j += 1
     # atualiza os índices para repetir o processo para o próximo elemento da lista
@@ -91,9 +91,7 @@ while (i != len(rota2['posts'])):
     j=i+1
 
 # ordena a lista por IDs de produtos
-def myFunc(e):
-    return e['product_id']
-resposta['response_d'].sort(key=myFunc)
+resposta['response_d'].sort()
 
 # retira produtos da lista com IDs repetidos
 # inicializa os indíces
@@ -102,7 +100,7 @@ j = i + 1
 # percorre a lista a partir do segundo elemento
 while (j != len(resposta['response_d'])):
     # verifica se elementos adjacentes possuem mesmo ID
-    if resposta['response_d'][i]['product_id'] == resposta['response_d'][j]['product_id']:
+    if resposta['response_d'][i] == resposta['response_d'][j]:
         # caso seja verdade, remove o elemento da lista
         del resposta['response_d'][j]
     else:
