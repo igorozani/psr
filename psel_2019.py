@@ -14,7 +14,7 @@ somatoria = 0
 # criação do objeto que será a resposta.json
 resposta = {'full_name': "Igor Jose Lima Rozani",
             'email': "igorozani@gmail.com",
-            'code_link': "https://github.com/igorozani/ps-r",
+            'code_link': "https://github.com/igorozani/psel2019-raccoon",
             'response_a': [],
             'response_b': [],
             'response_c': somatoria,
